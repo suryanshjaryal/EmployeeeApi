@@ -21,6 +21,16 @@ public class Employee {
 
     private String phoneNumber;
 
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    private String department;
+
     public Long getId() {
         return id;
     }
